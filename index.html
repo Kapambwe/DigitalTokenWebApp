@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Digital Asset Token Registry</title>
+    <base href="/" id="dynamic-base">
+    <script>
+        (function () {
+            var base = document.getElementById('dynamic-base');
+            var path = window.location.pathname.includes('/TokenManagementApp')
+                ? '/TokenManagementApp/'
+                : '/';
+            base.setAttribute('href', path);
+        })();
+    </script>
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="CompanyApp.Client.TokenManagementApp.styles.css" rel="stylesheet" />
+    <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div style="display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column;gap:1rem;">
+            <svg class="loading-progress" style="width:80px;height:80px;">
+                <circle r="40%" cx="50%" cy="50%" style="fill:none;stroke:#1e88e5;stroke-width:4;stroke-dasharray:251;animation:loading-progress-spin 1s linear infinite;" />
+            </svg>
+            <p style="font-family:Roboto,sans-serif;color:#555;">Loading National Token Registry...</p>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>

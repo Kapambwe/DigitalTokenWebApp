@@ -1,0 +1,108 @@
+{
+  "zambia": {
+    "ministry": [
+      "ministry-of-finance",
+      "ministry-of-mines"
+    ],
+    "bank": [
+      "zanaco",
+      "standard-chartered-zambia"
+    ],
+    "mining-company": [
+      "first-quantum-minerals",
+      "vedanta-konkola-copper-mines"
+    ],
+    "cooperative": [
+      "eastern-province-maize-cooperative",
+      "chisamba-agro-farm",
+      "kafue-fisheries-cooperative"
+    ],
+    "farm": [
+      "makeni-irrigated-estates",
+      "southern-province-cattle-ranch"
+    ],
+    "individual": [
+      "chanda-mwale"
+    ],
+    "sme": [
+      "lusaka-bakers-guild"
+    ],
+    "carbon-credit-registry": [
+      "zambia-carbon-registry"
+    ],
+    "public-works": [
+      "zambia-national-roads-authority"
+    ],
+    "construction": [
+      "national-housing-authority"
+    ],
+    "financial-services": [
+      "zanaco-asset-management",
+      "african-life-financial-services"
+    ],
+    "supply-chain": [
+      "nacala-logistics-zambia",
+      "zambia-agri-trade-hub"
+    ],
+    "artisanal-miner": [
+      "zambia-artisanal-gemstone-miners-cooperative",
+      "north-western-province-gold-panners-association"
+    ],
+    "soe": [
+      "zesco",
+      "zamtel",
+      "development-bank-of-zambia"
+    ]
+  },
+  "south-africa": {
+    "carbon-credit-registry": [
+      "south-african-carbon-offset-administration-system"
+    ],
+    "ministry": [
+      "department-of-forestry-fisheries-environment"
+    ],
+    "utility": [
+      "eskom"
+    ],
+    "mining-company": [
+      "anglogold-ashanti"
+    ],
+    "bank": [
+      "standard-bank-south-africa"
+    ],
+    "farm": [
+      "boland-wine-estate",
+      "free-state-grain-farm",
+      "karoo-merino-sheep-stud"
+    ],
+    "cooperative": [
+      "limpopo-macadamia-cooperative"
+    ],
+    "public-works": [
+      "sanral"
+    ],
+    "construction": [
+      "cidb"
+    ],
+    "sme": [
+      "gauteng-manufacturing-sme-hub"
+    ],
+    "financial-services": [
+      "old-mutual-asset-management",
+      "nedbank-capital"
+    ],
+    "supply-chain": [
+      "transnet-freight-rail",
+      "cape-fresh-produce-market"
+    ],
+    "artisanal-miner": [
+      "small-scale-mining-programme-dmre",
+      "mpumalanga-coal-miners-cooperative"
+    ],
+    "soe": [
+      "development-bank-of-southern-africa",
+      "industrial-development-corporation",
+      "land-bank"
+    ]
+  }
+}
