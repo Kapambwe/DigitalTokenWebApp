@@ -12,9 +12,9 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="CompanyApp.Client.TokenManagementApp.styles.css" rel="stylesheet" />
     <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.958z1vx7fr.js",
@@ -53,6 +53,18 @@
     </div>
    <script src="_framework/blazor.webassembly.958z1vx7fr.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+ <script>
+        // If redirected from 404.html, restore path
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            const path = params.get('path');
+            if (path) {
+                const base = "/DigitalTokenWebApp/" || '/';
+                const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
+                window.history.replaceState(null, '', cleanBase + decodeURIComponent(path));
+            }
+        })();
+    </script>
  
 </body>
 
